@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>⚡ BLACK VITALÍCIA MILIONÁRIA 2025 ⚡</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0a0a0a;
+      background-image: url('hero-background-B1l-TPnq.png');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+      position: relative;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.85);
+      z-index: 0;
+    }
+
+    .logo-container {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .logo-container img {
+      max-width: 400px;
+      width: 100%;
+      height: auto;
+      filter: drop-shadow(0 10px 30px rgba(212, 175, 55, 0.3));
+    }
+
+    .container {
+      width: 100%;
+      max-width: 650px;
+      padding: 5px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .promo-box {
+      background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+      border-radius: 25px;
+      padding: 45px 35px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5),
+        0 0 0 1px rgba(212, 175, 55, 0.2);
+      border: 2px solid rgba(212, 175, 55, 0.3);
+    }
+
+    .promo-item {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 20px;
+      padding: 18px;
+      background: rgba(212, 175, 55, 0.05);
+      border-radius: 12px;
+      border-left: 4px solid #d4af37;
+      transition: all 0.3s;
+    }
+
+    .promo-item:hover {
+      transform: translateX(5px);
+      background: rgba(212, 175, 55, 0.1);
+      box-shadow: 0 5px 15px rgba(212, 175, 55, 0.2);
+    }
+
+    .icon {
+      font-size: 24px;
+      margin-right: 15px;
+      flex-shrink: 0;
+    }
+
+    .promo-item span:last-child {
+      font-size: 15px;
+      line-height: 1.6;
+      color: #e0e0e0;
+    }
+
+    .promo-item strong {
+      color: #d4af37;
+      font-weight: 600;
+    }
+
+    .promo-price {
+      text-align: center;
+      margin: 35px 0;
+      padding: 30px;
+      background: linear-gradient(135deg, #d4af37 0%, #f4d03f 50%, #d4af37 100%);
+      border-radius: 15px;
+      color: #1a1a1a;
+      box-shadow: 0 10px 30px rgba(212, 175, 55, 0.4);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .promo-price::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(45deg,
+          transparent,
+          rgba(255, 255, 255, 0.1),
+          transparent);
+      transform: rotate(45deg);
+      animation: shine 3s infinite;
+    }
+
+    @keyframes shine {
+      0% {
+        transform: translateX(-100%) translateY(-100%) rotate(45deg);
+      }
+
+      100% {
+        transform: translateX(100%) translateY(100%) rotate(45deg);
+      }
+    }
+
+    .installments {
+      display: block;
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+      position: relative;
+      z-index: 1;
+    }
+
+    .cash {
+      display: block;
+      font-size: 18px;
+      font-weight: 600;
+      position: relative;
+      z-index: 1;
+    }
+
+    .form-group {
+      margin-bottom: 25px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 12px;
+      font-weight: 600;
+      color: #d4af37;
+      font-size: 16px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .input-wrapper {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .input-icon {
+      position: absolute;
+      left: 18px;
+      font-size: 20px;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    input[type="email"] {
+      width: 100%;
+      padding: 18px 18px 18px 55px;
+      border: 2px solid rgba(212, 175, 55, 0.3);
+      border-radius: 12px;
+      font-size: 16px;
+      transition: all 0.3s;
+      background: rgba(255, 255, 255, 0.05);
+      color: #ffffff;
+    }
+
+    input[type="email"]::placeholder {
+      color: rgba(255, 255, 255, 0.4);
+    }
+
+    input[type="email"]:focus {
+      outline: none;
+      border-color: #d4af37;
+      background: rgba(255, 255, 255, 0.08);
+      box-shadow: 0 0 0 4px rgba(212, 175, 55, 0.1);
+    }
+
+    .error-message {
+      display: none;
+      color: #ff6b6b;
+      font-size: 14px;
+      margin-top: 8px;
+      font-weight: 500;
+    }
+
+    .btn-submit {
+      width: 100%;
+      padding: 20px;
+      background: linear-gradient(135deg, #d4af37 0%, #f4d03f 50%, #d4af37 100%);
+      color: #1a1a1a;
+      border: none;
+      border-radius: 12px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s;
+      position: relative;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      box-shadow: 0 8px 25px rgba(212, 175, 55, 0.4);
+    }
+
+    .btn-submit:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 35px rgba(212, 175, 55, 0.6);
+    }
+
+    .btn-submit:active {
+      transform: translateY(-1px);
+    }
+
+    .btn-text {
+      display: inline-block;
+    }
+
+    .spinner {
+      display: none;
+      width: 20px;
+      height: 20px;
+      border: 3px solid rgba(26, 26, 26, 0.3);
+      border-top-color: #1a1a1a;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin-left: 10px;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .alert {
+      display: none;
+      padding: 25px;
+      border-radius: 12px;
+      margin-top: 25px;
+      background: rgba(255, 107, 107, 0.1);
+      border: 2px solid rgba(255, 107, 107, 0.3);
+    }
+
+    .alert-error {
+      background: rgba(255, 107, 107, 0.1);
+      border: 2px solid #ff6b6b;
+    }
+
+    .alert-icon {
+      font-size: 40px;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    .alert h3 {
+      color: #ff6b6b;
+      margin-bottom: 15px;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .alert p {
+      color: #e0e0e0;
+      line-height: 1.6;
+      font-size: 15px;
+    }
+
+    .alert a {
+      color: #d4af37;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .alert a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      .logo-container img {
+        max-width: 300px;
+      }
+
+      .promo-box {
+        padding: 30px 20px;
+      }
+
+      .installments {
+        font-size: 28px;
+      }
+
+      .cash {
+        font-size: 16px;
+      }
+
+      .btn-submit {
+        font-size: 16px;
+        padding: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="logo-container">
+    <img src="logo-black-vitalicia-KMAsWEum.png" alt="Black Vitalícia Milionária">
+  </div>
+
+  <div class="container" style="padding:5px">
+    <div class="promo-box">
+
+      <div class="promo-item">
+        <span class="icon">✅</span>
+        <span><strong>Acesso vitalício</strong> a todos os treinamentos de investimentos</span>
+      </div>
+      <div class="promo-item">
+        <span class="icon">✅</span>
+        <span><strong>6 cursos completos:</strong> Mentoria Virando Investidor, Milionário em Dólar, Milionário em
+          Criptomoedas, Milionário com Consórcio, Milionário com Leilão e Programa Investidor Elite</span>
+      </div>
+      <div class="promo-item">
+        <span class="icon">✅</span>
+        <span><strong>Desconto exclusivo</strong> de 50% OFF para alunos</span>
+      </div>
+      <div class="promo-item">
+        <span class="icon">✅</span>
+        <span><strong>Acesso imediato</strong> + todas as atualizações futuras incluídas</span>
+      </div>
+      <div class="promo-price">
+        <span class="installments">12x de R$212,66</span>
+        <span class="cash">ou R$1.997,00 à vista</span>
+      </div>
+
+      <form id="emailForm">
+        <div class="form-group">
+          <label for="email">Preencha com seu e-mail de aluno:</label>
+          <div class="input-wrapper">
+            <span class="input-icon">✉️</span>
+            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+          </div>
+          <div class="error-message" id="emailError">
+            Por favor, insira um e-mail válido
+          </div>
+        </div>
+
+        <button type="submit" class="btn-submit">
+          <span class="btn-text">Garantir Acesso Vitalício</span>
+          <div class="spinner"></div>
+        </button>
+      </form>
+
+      <div class="alert alert-error" id="alertError">
+        <div class="alert-icon">⚠️</div>
+        <h3>E-mail não encontrado</h3>
+        <p>
+          O e-mail <strong id="emailNotFound"></strong> não foi encontrado na nossa base de alunos.
+        </p>
+        <p style="margin-top: 10px;">
+          Para garantir seu desconto especial de 50% OFF, utilize o mesmo e-mail que você usou
+          para comprar outros treinamentos do Carlos Magno.<br>
+          Caso não esteja conseguindo, <a
+            href="https://api.whatsapp.com/send?l=pt&phone=5511968737626&text=Oi,%20sou%20aluno%20do%20Carlos%20Magno%20e%20não%20consegui%20acessar%20o%20checkout%20da%20Black%20Vitalícia">toque
+            aqui para falar com o suporte</a>.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+    // Validação de email
+    function isValidEmail(email) {
+      const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return regex.test(email);
+    }
+
+    // Reset do formulário
+    function resetForm() {
+      $('#email').removeClass('error');
+      $('#emailError').hide();
+      $('#alertError').hide();
+    }
+
+    // Validação ao digitar
+    $(document).on('input', '#email', function () {
+      resetForm();
+    });
+
+    // Submit do formulário
+    $(document).on('submit', '#emailForm', function (e) {
+      e.preventDefault();
+      resetForm();
+
+      const email = $('#email').val().trim();
+
+      // Validação básica
+      if (!isValidEmail(email)) {
+        $('#email').addClass('error');
+        $('#emailError').show();
+        return;
+      }
+
+      // Desabilita botão e mostra loading
+      const $btn = $('.btn-submit');
+      $btn.addClass('loading').prop('disabled', true);
+
+      // Faz a requisição POST
+      $.ajax({
+        url: 'https://n8n.apolo01.agenciajasolutions.com.br/webhook/ba99222f-24f1-4557-89d9-8505da601147',
+        type: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify({ email: email }),
+        success: function (response) {
+          $btn.removeClass('loading').prop('disabled', false);
+
+          if (response.is_customer === true) {
+            // Redireciona para a página de pré-checkout
+            window.location.href = 'https://lastlink.com/p/C4A77603A/checkout-payment';
+          } else {
+            // Mostra mensagem de erro
+            $('#emailNotFound').text(email);
+            $('#alertError').slideDown();
+          }
+        },
+        error: function (xhr, status, error) {
+          $btn.removeClass('loading').prop('disabled', false);
+
+          // Tenta parsear a resposta de erro
+          try {
+            const response = JSON.parse(xhr.responseText);
+            if (response.is_customer === false) {
+              $('#emailNotFound').text(email);
+              $('#alertError').slideDown();
+              return;
+            }
+          } catch (e) {
+            // Se não conseguir parsear, mostra erro genérico
+          }
+
+          // Erro de conexão ou outro erro
+          alert('Ocorreu um erro ao verificar seu e-mail. Por favor, tente novamente.');
+          console.error('Erro:', error);
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>
